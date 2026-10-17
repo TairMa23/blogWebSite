@@ -1,0 +1,12 @@
+p:first-child::first-line{
+     font-weight: bold;
+}
+p:first-child:first-letter{
+     font-size: large;
+}
+p:last-child::first-line{
+     font-style: italic;
+}
+p:last-child::after{
+     content: '"';
+}
